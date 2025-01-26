@@ -3,103 +3,113 @@ This is my personal repo which is helpful for me to Crack the interviews
 
 # Preparation Journey
 
-This repository documents my journey of preparing for job interviews and improving my coding skills. I am spending 2 hours daily to focus on core skills and problem-solving. Below is the detailed weekly study plan:
+This repository documents my journey of preparing for job interviews and improving my coding skills. The focus is on preparing for Tier 1 companies like Google, Amazon, and others by mastering topics relevant to coding interviews, especially in Python and DSA. Below is the detailed study plan structured into modules and chapters:
 
 ---
 
-## **Weekly Study Plan**
+## **Module 1: Python Programming**
+### **Chapter 1: Python Basics**
+- Variables, loops, functions, and list comprehensions.
+- Object-Oriented Programming (OOP): Classes, Inheritance, Polymorphism.
+- Error handling and debugging techniques.
 
-### **Day 1: Python Fundamentals**
-#### **Core (1 Hour):**
-- Revise Python Basics: Variables, loops, functions, list comprehensions.
-- Learn/Revise OOP in Python (Classes, Inheritance, Polymorphism).
-
-#### **Problem-Solving (1 Hour):**
-- Solve 2-3 easy problems on **Arrays/Strings**:
-  - Examples: Two Sum, Reverse String, Remove Duplicates.
-
----
-
-### **Day 2: Django Basics + Hashmaps**
-#### **Core (1 Hour):**
-- Revise Django fundamentals:
-  - Setting up a project.
-  - Models and Views (focus on creating APIs).
-  - Django ORM (queries, filtering).
-
-#### **Problem-Solving (1 Hour):**
-- Solve 2-3 problems on **Hashmaps**:
-  - Examples: Valid Anagram, Group Anagrams.
+### **Chapter 2: Advanced Python**
+- Decorators and Generators.
+- File handling and Context Managers.
+- Multithreading and Multiprocessing.
+- Python data structures (lists, sets, tuples, dictionaries).
 
 ---
 
-### **Day 3: SQL Basics + Sliding Window**
-#### **Core (1 Hour):**
-- Revise PostgreSQL:
-  - Writing basic SQL queries (SELECT, JOIN, WHERE).
-  - GROUP BY, HAVING.
-- Practice writing queries for sample datasets (e.g., employees, sales).
+## **Module 2: Data Structures and Algorithms (DSA)**
+### **Chapter 3: Arrays and Strings**
+- Basics of arrays and string manipulation.
+- Sliding window technique, two-pointer approach.
+- Problems: Two Sum, Longest Substring Without Repeating Characters, Merge Intervals.
 
-#### **Problem-Solving (1 Hour):**
-- Solve 1 easy and 1 medium problem on **Sliding Window**:
-  - Examples: Maximum Subarray, Longest Substring Without Repeating Characters.
+### **Chapter 4: Linked Lists**
+- Singly, Doubly, and Circular linked lists.
+- Operations: Insert, Delete, Reverse.
+- Problems: Merge Two Sorted Lists, Detect Cycle in Linked List.
 
----
+### **Chapter 5: Stacks and Queues**
+- Implementation using arrays and linked lists.
+- Problems: Valid Parentheses, Largest Rectangle in Histogram.
 
-### **Day 4: Web Scraping + Recursion**
-#### **Core (1 Hour):**
-- Revise **Selenium**:
-  - Basic setup (locating elements, clicking buttons).
-  - Handling edge cases like dynamic elements and pagination.
+### **Chapter 6: Hashmaps and Hashsets**
+- Frequency counting and hashing techniques.
+- Problems: Two Sum, Group Anagrams, Subarray Sum Equals K.
 
-#### **Problem-Solving (1 Hour):**
-- Solve 2 problems on **Recursion**:
-  - Examples: Fibonacci, Factorial, Subsets.
+### **Chapter 7: Recursion and Backtracking**
+- Basics of recursion and backtracking.
+- Problems: N-Queens, Sudoku Solver, Generate Parentheses.
 
----
+### **Chapter 8: Trees and Graphs**
+- Binary Trees: Traversals (Inorder, Preorder, Postorder), BFS, DFS.
+- Binary Search Trees (BST): Insert, Delete, Search.
+- Graphs: Representations (Adjacency Matrix/List), BFS, DFS.
+- Problems: Lowest Common Ancestor, Number of Islands, Shortest Path.
 
-### **Day 5: Docker + Trees**
-#### **Core (1 Hour):**
-- Learn Docker:
-  - Setting up a container.
-  - Writing a basic Dockerfile.
-  - Running and stopping containers.
-
-#### **Problem-Solving (1 Hour):**
-- Solve 2 problems on **Trees**:
-  - Examples: Inorder Traversal, Maximum Depth of Binary Tree.
+### **Chapter 9: Dynamic Programming (DP)**
+- Basics of DP: Overlapping Subproblems, Optimal Substructure.
+- Problems: Fibonacci Sequence, Knapsack Problem, Longest Increasing Subsequence.
 
 ---
 
-### **Day 6: Advanced Django + Graphs**
-#### **Core (1 Hour):**
-- Advanced Django:
-  - Middleware.
-  - Authentication/Authorization.
-  - Deploying Django apps.
+## **Module 3: Database Management**
+### **Chapter 10: SQL Basics**
+- Writing SQL queries (SELECT, JOIN, WHERE, GROUP BY, HAVING).
+- Practice: Sample datasets (e.g., employees, sales).
 
-#### **Problem-Solving (1 Hour):**
-- Solve 1 easy and 1 medium problem on **Graphs**:
-  - Examples: Number of Islands, Graph Traversals (BFS/DFS).
+### **Chapter 11: Advanced SQL**
+- Indexing and Query Optimization.
+- Window Functions.
+- Writing complex subqueries.
 
 ---
 
-### **Day 7: Mock + Review**
-#### **Core (1 Hour):**
-- Work on a small project or feature (e.g., Django-based API or web scraper).
+## **Module 4: Django Framework**
+### **Chapter 12: Django Basics**
+- Setting up a project.
+- Models, Views, and Templates.
+- Django ORM (queries, filtering).
 
-#### **Problem-Solving (1 Hour):**
-- Revisit problems you struggled with during the week.
-- Do 1 mock interview question or timed coding round (e.g., on LeetCode).
+### **Chapter 13: Advanced Django**
+- Middleware.
+- Authentication and Authorization.
+- Deploying Django apps.
+
+---
+
+## **Module 5: Web Development Tools**
+### **Chapter 14: Web Scraping**
+- Selenium basics: Locating elements, clicking buttons, handling dynamic elements.
+- Edge cases: Pagination, infinite scrolling.
+
+---
+
+## **Module 6: DevOps Basics**
+### **Chapter 15: Docker**
+- Setting up a container.
+- Writing Dockerfiles.
+- Running and stopping containers.
+
+---
+
+## **Module 7: Practice and Review**
+### **Chapter 16: Mock and Review**
+- Work on small projects (e.g., Django-based API or web scraper).
+- Solve mock interview questions and timed coding rounds (e.g., on LeetCode).
 
 ---
 
 ## **Execution Tips**
-1. **Track Progress**: Use Trello/JIRA or a simple notebook to check off daily tasks.
+1. **Track Progress**: Use Trello/JIRA or a simple notebook to check off completed topics.
 2. **Push Yourself**: Aim to solve 1-2 problems beyond your comfort zone every week.
 3. **Celebrate Wins**: Track milestones like completing 10 problems or mastering a skill.
 
 ---
 
-Let’s make this journey impactful and rewarding! 🚀
+This journey is designed to help you excel in technical interviews and land a job at a Tier 1 company. Let’s make it impactful and rewarding! 🚀
+
 
